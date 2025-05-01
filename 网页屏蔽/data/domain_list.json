@@ -1,0 +1,10 @@
+[
+    {
+        "domain": "www.douyin.com",
+        "blocked": false
+    },
+    {
+        "domain": "www.bilibili.com",
+        "blocked": false
+    }
+]
