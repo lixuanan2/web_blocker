@@ -21,3 +21,6 @@ data/hosts_backup.txt
 
 # Exe文件（如果不想上传打包好的EXE）
 *.exe
+
+# 快捷方式文件
+*.lnk
