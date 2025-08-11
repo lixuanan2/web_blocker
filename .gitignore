@@ -1,26 +1,55 @@
-# Python
+# ---------- Python 基础 ----------
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
+*.so
+*.dylib
+*.log
 
-# PyInstaller
-build/
+# 虚拟环境（本地）
+.venv/
+venv/
+ENV/
+env/
+
+# 包与构建产物
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+.build/
 dist/
+build/
 *.spec
 
-# VSCode（如果你用的是 VSCode，可以忽略设置）
-.vscode/
+# 测试/静态检查缓存
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
 
-# 系统文件
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------- 编辑器/系统 ----------
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+._*
 
-# 数据备份（如果希望domain_list.json不上传）
-data/hosts_backup.txt
-
-# Exe文件（如果不想上传打包好的EXE）
+# ---------- 平台相关 ----------
+# （若不想上传打包产物，这里已排除 dist/）
+# Windows 可执行
 *.exe
-
-# 快捷方式文件
 *.lnk
+
+# ---------- 项目数据 ----------
+# 仅忽略备份文件；正式数据照常提交
+data/hosts_backup.txt
