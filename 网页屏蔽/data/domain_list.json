@@ -1,10 +1,14 @@
 [
     {
         "domain": "www.douyin.com",
-        "blocked": false
+        "blocked": true
     },
     {
         "domain": "www.bilibili.com",
+        "blocked": true
+    },
+    {
+        "domain": "www.youtube.com",
         "blocked": false
     }
 ]
